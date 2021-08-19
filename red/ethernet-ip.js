@@ -21,7 +21,9 @@ module.exports = function (RED) {
     const eip = require('ethernet-ip');
     const {
         Controller,
-        Tag
+        Tag,
+        TagList,
+        Structure
     } = eip;
     const {
         EventEmitter
